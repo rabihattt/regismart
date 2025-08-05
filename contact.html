@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Regismart</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #fff0f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #b347cc;
+            color: white;
+            padding: 25px 0;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-container {
+            max-width: 800px;
+            background-color: white;
+            margin: 40px auto;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(179, 71, 204, 0.2);
+        }
+
+        h2 {
+            color: #b347cc;
+            font-size: 26px;
+            margin-bottom: 10px;
+        }
+
+        .greeting {
+            font-size: 16px;
+            line-height: 1.7;
+            color: #444;
+            margin-bottom: 30px;
+            background-color: #fdf1ff;
+            padding: 20px;
+            border-left: 4px solid #b347cc;
+            border-radius: 8px;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            font-weight: 500;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 16px;
+            box-sizing: border-box;
+        }
+
+        textarea {
+            resize: vertical;
+            height: 120px;
+        }
+
+        button {
+            margin-top: 20px;
+            padding: 12px 20px;
+            background-color: #b347cc;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #992fb3;
+        }
+
+        .info {
+            margin-top: 40px;
+            background-color: #f9e6ff;
+            padding: 20px;
+            border-radius: 6px;
+            border-left: 5px solid #b347cc;
+        }
+
+        .info p {
+            margin: 8px 0;
+            font-size: 15px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px 10px;
+            background-color: #f5dcfa;
+            margin-top: 50px;
+            font-size: 14px;
+            color: #666;
+        }
+        header img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-top: 5px;
+
+}
+
+        footer img {
+            vertical-align: middle;
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+            transition: transform 0.2s;
+        }
+
+        footer img:hover {
+            transform: scale(1.1);
+        }
+
+      
+    </style>
+</head>
+<body>
+
+<header>
+    Contact Us - Regismart
+       <img src="2nd.jpg" alt="">
+</header>
+
+<div class="contact-container">
+    <h2>Hey there! 👋</h2>
+    <div class="greeting">
+        Thank you for using <strong>Regismart</strong>! 💜<br><br>
+        We’re here to help you with anything you need. <br>
+        Feel free to contact us for any queries, service requests, or if you want to know more about what we do.<br><br>
+        📝 And don’t forget to share your valuable feedback — it helps us update our system and make Regismart more user-friendly and helpful for you!
+    </div>
+
+    <form>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="What's your message about?" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info">
+        <p><strong>📧 Email:</strong> support@regismart.com</p>
+        <p><strong>📍 Address:</strong> Dhaka, Bangladesh</p>
+        <p><strong>📞 Phone:</strong> +880 1234-567890</p>
+        <p><strong>💬 Facebook:</strong> <a href="https://facebook.com" target="_blank">facebook.com/regismart</a></p>
+    </div>
+</div>
+
+<footer>
+    <div style="margin-bottom: 10px;">
+        Connect with us:
+        <a href="https://facebook.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/24/733/733558.png" alt="Instagram">
+        </a>
+        <a href="https://x.com" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/24/5968/5968958.png" alt="Twitter/X">
+        </a>
+    </div>
+
+    <div>
+        📧 Email us: 
+        <a href="mailto:support@regismart.com" style="color: #b347cc; text-decoration: none;">
+            support@regismart.com
+        </a>
+    </div>
+
+    <div style="margin-top: 8px;">
+        © 2025 Regismart. All rights reserved. | Designed with ❤️
+    </div>
+</footer>
+
+</body>
+</html>
+
