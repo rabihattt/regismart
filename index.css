@@ -125,3 +125,59 @@ body{
     color: white;
     cursor: pointer;
 }
+
+
+@media (max-width: 576px) {
+    .nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .list {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+    }
+
+    .logo-name {
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        padding: 15px;
+        margin-top: 50px;
+    }
+
+    .login-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .login-form {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .lf-ph,
+    .btn {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .active {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .button1 {
+        width: 100%;
+        font-size: 14px;
+        padding: 8px;
+    }
+}
